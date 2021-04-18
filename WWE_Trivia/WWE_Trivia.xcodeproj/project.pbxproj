@@ -14,6 +14,8 @@
 		A3722050262C116E007B6E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A372204F262C116E007B6E93 /* Assets.xcassets */; };
 		A3722053262C116E007B6E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3722051262C116E007B6E93 /* LaunchScreen.storyboard */; };
 		A372205D262C133E007B6E93 /* wwe-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A372205C262C133E007B6E93 /* wwe-logo.png */; };
+		A3722060262C1502007B6E93 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A372205F262C1502007B6E93 /* Question.swift */; };
+		A3722065262C155E007B6E93 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3722064262C155E007B6E93 /* QuizModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A3722052262C116E007B6E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3722054262C116E007B6E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A372205C262C133E007B6E93 /* wwe-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wwe-logo.png"; sourceTree = "<group>"; };
+		A372205F262C1502007B6E93 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A3722064262C155E007B6E93 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 				A3722046262C116C007B6E93 /* AppDelegate.swift */,
 				A3722048262C116C007B6E93 /* SceneDelegate.swift */,
 				A372204A262C116C007B6E93 /* ViewController.swift */,
+				A3722062262C151F007B6E93 /* Model */,
 				A372204C262C116C007B6E93 /* Main.storyboard */,
 				A372204F262C116E007B6E93 /* Assets.xcassets */,
 				A372205C262C133E007B6E93 /* wwe-logo.png */,
@@ -68,6 +73,15 @@
 				A3722054262C116E007B6E93 /* Info.plist */,
 			);
 			path = WWE_Trivia;
+			sourceTree = "<group>";
+		};
+		A3722062262C151F007B6E93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A372205F262C1502007B6E93 /* Question.swift */,
+				A3722064262C155E007B6E93 /* QuizModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A372204B262C116C007B6E93 /* ViewController.swift in Sources */,
+				A3722060262C1502007B6E93 /* Question.swift in Sources */,
 				A3722047262C116C007B6E93 /* AppDelegate.swift in Sources */,
 				A3722049262C116C007B6E93 /* SceneDelegate.swift in Sources */,
+				A3722065262C155E007B6E93 /* QuizModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
