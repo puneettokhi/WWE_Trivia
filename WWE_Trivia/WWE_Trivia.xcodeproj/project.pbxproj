@@ -64,9 +64,9 @@
 			children = (
 				A3722046262C116C007B6E93 /* AppDelegate.swift */,
 				A3722048262C116C007B6E93 /* SceneDelegate.swift */,
-				A372204A262C116C007B6E93 /* ViewController.swift */,
 				A3722062262C151F007B6E93 /* Model */,
-				A372204C262C116C007B6E93 /* Main.storyboard */,
+				A3722067262C185D007B6E93 /* View */,
+				A3722069262C186C007B6E93 /* Controller */,
 				A372204F262C116E007B6E93 /* Assets.xcassets */,
 				A372205C262C133E007B6E93 /* wwe-logo.png */,
 				A3722051262C116E007B6E93 /* LaunchScreen.storyboard */,
@@ -82,6 +82,22 @@
 				A3722064262C155E007B6E93 /* QuizModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A3722067262C185D007B6E93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A372204C262C116C007B6E93 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3722069262C186C007B6E93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A372204A262C116C007B6E93 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
