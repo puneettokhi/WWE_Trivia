@@ -13,7 +13,7 @@ struct QuizModel {
     var score = 0
     
     let quiz = [
-                Question(q: "Who won the 2006 Royal Rumble?", a: ["John Cena", "Batista", "Triple H"], correctAnswer: "John Cena"),
+                Question(q: "Who won the 2008 Royal Rumble?", a: ["John Cena", "Batista", "Triple H"], correctAnswer: "John Cena"),
                 Question(q: "Who retired Ric Flair at Wrestlemania?", a: ["Shawn Michaels", "Randy Orton", "John Cena"], correctAnswer: "Shawn Michaels"),
                 Question(q: "Who ended the Undertaker's Wrestemania undefeated streak?", a: ["Triple H", "CM Punk", "Brock Lesnar"], correctAnswer: "Brock Lesnar"),
                 Question(q: "After how many years did Bobby Lashley win WWE Title?", a: ["18", "16", "17"], correctAnswer: "16"),
